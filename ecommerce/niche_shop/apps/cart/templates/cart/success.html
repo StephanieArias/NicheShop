@@ -1,0 +1,15 @@
+
+
+{% extends 'core/base.html' %}
+
+{% block title %}Cart | {% endblock %}
+
+{% block content %}
+<h1 class="title">Thanks for the order</h1>
+<strong>${{ order.paid_amount }}</strong>
+
+{{ item.quantity }}
+
+${{ item.total_price }}
+</tr>
+{% endblock %}
