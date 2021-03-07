@@ -27,9 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-STRIPE_PUB_KEY = 'pk_test_51INWxiBHkWX9ufF8gVpbf89aUeMcIlWWkmyNmZD6snYAwTZHIsLwmpUxKMcshhixbeZltItdxobpfkyHBax562R8008afRUNXU'
-STRIPE_SECRET_KEY = 'sk_test_51INWxiBHkWX9ufF8FQszevqcY4aY9CWlBFUIIRcpLizEMbgtMmbpdGUl7mFQWRkJBixxyaWkNoIuZapuESUuD0OD00HRK8X4dE'
-
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'vendor_admin'
 LOGOUT_REDIRECT_URL = 'frontpage'
